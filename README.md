@@ -15,4 +15,16 @@ Ce Tp est décomposé de 3 parties:
 
 - Configuration de  l'environnement CartPole
 -  Configuration de l'agent en tant que réseau de neurones simple avec :
-  
+  - Une couche entièrement connectée avec 128 unités et une activation ReLU suivie d'une couche de désactivation
+  - Une couche entièrement connectée suivie d'une activation softmax
+Répéter 500 fois :
+Réinitialiser l'environnement
+Réinitialiser le tampon
+Répéter jusqu'à la fin de l'épisode :
+Calculer les probabilités d'action
+Échantillonner l'action en fonction des probabilités et stocker sa probabilité dans le tampon
+Faire avancer l'environnement avec l'action
+Calculer et stocker dans le tampon le retour en utilisant gamma=0,99
+Normaliser le retour
+Calculer la perte de politique comme -somme(log(prob) * retour)
+Mettre à jour la politique en utilisant un optimiseur Adam et un taux d'apprentissage de 5e-3
