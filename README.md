@@ -13,6 +13,6 @@ Ce Tp est décomposé de 3 parties:
 # RL_Cartpole_V1.ipynb
  Les tâches de cette partie sont :
 
- ## Configuration de  l'environnement CartPole
- ## Configurer l'agent en tant que réseau de neurones simple avec :
- 
+- Configuration de  l'environnement CartPole
+-  Configuration de l'agent en tant que réseau de neurones simple avec :
+  
