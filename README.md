@@ -32,8 +32,14 @@ Ce Tp est décomposé de 3 parties:
 ce modèle est partagé dans la plateforme Hugging facing Hub, dans le lien suivant: https://huggingface.co/Mohamed10/TP1_RL_ELMAI/tree/main
 
 
-# Robotic_arm_baseline
+# a2c_sb3_cartpole
 Dans cette partie, on va utiliser le package Stable-Baselines3 pour entraîner un bras robotique à l'aide du RL. plusieurs outils largement utilisés pour l'entraînement, la surveillance et le partage de modèles d'apprentissage automatique.
+
+On va utiliser A2c
 
 ce modèle est partagé dans la plateforme Hugging facing Hub, dans le lien suivant: https://huggingface.co/Mohamed10/TP1_RL_ELMAI/tree/main
 
+# a2c_sb3_panda_reach
+ Dans cette partie on va utiliser le package Stable-Baselines3 pour entraîner un modèle A2C sur l'environnement PandaReachJointsDense-v2. 500 000 étapes devraient suffire.En suivant  l'environnement avec Weights & Biases.
+
+ le track et la comparaison des expériences est dans le lien suivante: https://wandb.ai/elmaimohamed638/panda-reach-a2c?workspace=user-elmaimohamed638
