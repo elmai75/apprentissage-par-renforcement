@@ -10,7 +10,7 @@ L'apprentissage par renforcement est utilisé dans de nombreuses applications, t
 
 Ce Tp est décomposé de 3 parties:
 
-# RL_Cartpole_V1.ipynb
+# l'environement Cartpole-v1
  Les tâches de cette partie sont :
 
 - Configuration de  l'environnement CartPole
@@ -30,3 +30,10 @@ Ce Tp est décomposé de 3 parties:
 - Mettre à jour la politique en utilisant un optimiseur Adam et un taux d'apprentissage de 5e-3
 
 ce modèle est partagé dans la plateforme Hugging facing Hub, dans le lien suivant: https://huggingface.co/Mohamed10/TP1_RL_ELMAI/tree/main
+
+
+# Robotic_arm_baseline
+Dans cette partie, on va utiliser le package Stable-Baselines3 pour entraîner un bras robotique à l'aide du RL. plusieurs outils largement utilisés pour l'entraînement, la surveillance et le partage de modèles d'apprentissage automatique.
+
+ce modèle est partagé dans la plateforme Hugging facing Hub, dans le lien suivant: https://huggingface.co/Mohamed10/TP1_RL_ELMAI/tree/main
+
