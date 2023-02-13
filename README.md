@@ -28,3 +28,5 @@ Ce Tp est décomposé de 3 parties:
 - Normaliser le retour
 - Calculer la perte de politique comme -somme(log(prob) * retour)
 - Mettre à jour la politique en utilisant un optimiseur Adam et un taux d'apprentissage de 5e-3
+
+ce modèle est partagé dans la plateforme Hugging facing Hub, dans le lien suivant: https://huggingface.co/Mohamed10/TP1_RL_ELMAI/tree/main
